@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hayden hollamon</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/eda4ojs.css">
+  </head>
+
+  <body>
+
+
+    <p class="marquee">
+      <span>coming soon&nbsp;</span>
+    </p>
+    <p class="marquee marquee2">
+      <span>coming soon&nbsp;</span>
+    </p>
+
+    <div class="head">
+      <img class="head" src="../images/head.svg" height="485.0421" width="450.6149">
+    </div>
+
+
+
+    <div class="eyes">
+      <div class="eye">
+        <div class="ball">
+        </div>
+      </div>
+
+      <div class="eye">
+        <div class="ball">
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var balls = document.getElementsByClassName("ball");
+      document.onmousemove = function(){
+        var x = event.clientX * 100 / window.innerWidth + "%";
+        var y = event.clientY * 100 / window.innerHeight + "%";
+
+        for(var i=0; i<2;i++){
+          balls[i].style.left = x;
+          balls[i].style.top = y;
+          balls[i].style.transform = "translate(-"+x+",-"+y+")";
+        }
+      }
+    </script>
+
+
+
+
+
+    <h3><a href="home.html">hayden</a></h3>
+
+
+
+    <nav>
+      <ul id="menu">
+        <li><a href="https://www.linkedin.com/in/hayden-hollamon-66708b188" target="_blank">linkedin</a></li>
+        <li> <a href="https://twitter.com/haydenhollamon" target="_blank">twitter</a></li>
+        <li><a href = "mailto: hollamon@msu.edu">email</a></li>
+        <li><a href = "tel:313-701-2714">phone</a></li>
+      </ul>
+    </nav>
+
+  </body>
+
+
+</html>

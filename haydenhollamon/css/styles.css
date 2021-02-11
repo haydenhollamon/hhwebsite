@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: black;
+  font-family: astoria-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+h3 a{
+  color: black;
+  font-family: astoria-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  position: fixed;
+  margin: 3% 7%;
+  font-size: 2vw;
+  text-decoration: none;
+}
+
+nav ul{
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: astoria-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin: 50px;
+  font-size:200%;
+}
+
+img.head {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 34vw;
+   height: 34vw;
+   margin-top: -19vw; /* Half the height */
+   margin-left: -17vw; /* Half the width */
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+}
+
+
+.hitmeup {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  height: 550px; /*requires explicit height*/
+  font-size: 15vw;
+}
+
+.eyes{
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.eye{
+  width: 80px;
+  height: 110px;
+  background: black;
+  display: inline-block;
+  margin: 35px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball{
+  width: 40px;
+  height: 40px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-65%, -85%);
+  border-radius: 50%
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  top: 15%; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  height: 550px; /*requires explicit height*/
+  font-size: 15vw;
+  color: black;
+  font-family: astoria-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee2 span {
+  animation-delay: 5s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+
+
+
+a:hover{
+  color: #7dc353;
+  transition:all 0.3s ease;
+}

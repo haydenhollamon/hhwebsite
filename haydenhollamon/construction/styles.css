@@ -1,0 +1,106 @@
+body{
+  background: white;
+}
+
+.construction{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.coming-soon{
+  color: #cac8b0;
+}
+
+.coming-soon1{
+  color: #0a765c;
+}
+
+.coming-soon2{
+  color: #0483c5;
+}
+
+.coming-soon3{
+  color: #da7192;
+}
+
+.coming-soon4{
+  color: #eb5044;
+}
+
+.coming-soon5{
+  color: #fcac17;
+}
+
+.coming-soon6{
+  color: #f7de0b;
+}
+
+.center {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.center1 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -110px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 95%;
+}
+
+.center2 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -120px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 90%;
+}
+
+.center3 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -130px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 85%;
+}
+
+.center4 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -140px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 80%;
+}
+
+
+.center5 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 75%;
+}
+
+.center6 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -160px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 70%;
+}
